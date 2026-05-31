@@ -12,7 +12,6 @@ import java.util.Optional;
 @Service
 @RequiredArgsConstructor
 public class PostService {
-    @Autowired
     private final PostRepository postRepository;
 
     public long count() {
