@@ -34,5 +34,8 @@ public class BaseInitData {
 
     void work2() { // 조회 로직
         Optional<Post> opPost1 = postRepository.findById(1);
+        Post post1 = opPost1.get();
+
+        System.out.println("post1 : " + post1);
     }
 }
