@@ -16,4 +16,5 @@ public class Post {
     @GeneratedValue(strategy = IDENTITY)
     private int id;
     private String title;
+    private String content;
 }
